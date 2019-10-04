@@ -1,0 +1,62 @@
+html{
+  overflow: hidden;
+  background-color: maroon;
+}
+h1{
+  position:absolute;
+  top:50%;
+  text-align: center;
+}
+div{
+
+}
+div h1{
+
+  position: relative;
+  top:75%;
+  text-align: center;
+}
+.text{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+}
+#main{
+  height: 100vh;
+  width: 100vw;
+}
+#mylove{
+  background-image: url('TnG.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+#tasia{
+  background-image: url('smile.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}#smile{
+  background-image: url('fancy.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+#ily{
+  background-image: url('gorgeous.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+#forever{
+  background-image: url('happy.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+#always{
+  background-image: url('perfect.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}

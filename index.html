@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" onclick="change()">
+<head>
+<title></title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="main.css">
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+</script>
+<![endif]-->
+</head>
+<body >
+
+	<main>
+			<h1 id="one" class="text">Proof I love you (in the nerdiest way possible)<h1>
+      <h1 id="two" class="text">Lately, things have been stressful...</h1>
+      <h1 id="three"  class="text">But no matter what life brings, I would do anything for my queen</h1>
+      <div id="mylove" class="text">
+        <h1>Just to see that smile on your face</h1>
+      </div>
+      <h1 id="five" class="text">I'd give my life and sell my soul for you, if it means you can be happy</h1>
+      <h1 id="six" class="text">Never a moment in my life have I ever disliked you</h1>
+      <h1 id="seven" class="text">In every moment... in every fight... all I think is "How can I change? How can <em>I</em> improve to make sure you're happy"</h1>
+      <h1 id="eight" class="text"> I know things have been crazy, with moves and money and stress</h1>
+      <h1 id="nine" class="text"> But when I see you, look in your eyes, kiss you, touch you... I know what I am fighting for</h1>
+      <div id="tasia" class="text">
+        <h1> It always has been</h1>
+      </div>
+      <div id="Smile" class="text">
+        <h1> And it always will be </h1>
+      </div>
+      <div id="ily" class="text">
+        <h1> You make me want to be a better man. A better Boyfriend... A better Fiance</h1>
+      </div>
+      <div id="forever" class="text">
+        <h1> There is absolutely no one in the entire universe I would rather spend my life with. Talk to. Love</h1>
+      </div>
+      <div id="always" class="text">
+        <h1> I know things are hard, but I will always put in the effort to make you happy. Whatever it takes.</h1>
+      </div>
+      <h1  class="text">I LOVE YOU NATASIA GASCA</h1>
+	</main>
+	<footer></footer>
+</body>
+<script type="text/javascript">
+
+    var x = 0;
+    for(i = 1; i <=14; i++){
+      document.getElementsByClassName('text')[i].style.display = "none";
+    }
+    function change(){
+      document.getElementsByClassName('text')[x].style.display = "none";
+      if(x == 14){
+        x=0
+        document.getElementsByClassName('text')[x].style.display = "block";
+      }
+      else{
+        x++;
+        document.getElementsByClassName('text')[x].style.display = "block";
+      }
+      console.log(x);
+    }
+
+</script>
+</html>
